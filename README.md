@@ -8,7 +8,7 @@ mount /dev/cdrom /mnt
 docker run -d -v /mnt:/mnt --name cobbler --net host -e IPADDR=192.168.1.10 -e DHCP_RANGE=192.168.1.20,192.168.1.30 -e ROOT_PASSWORD=password cobbler
 
 说明：共有3个变量：
-IPADDR:指定本机内网卡的IP地址\n
+IPADDR:指定本机内网卡的IP地址
 DHCP_RANGE：指定批量装机需要获取的IP地址段
 ROOT_PASSWORD：指定批量装机后系统默认的root密码
 
