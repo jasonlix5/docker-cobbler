@@ -2,7 +2,6 @@
 这是一个运行在docker里的cobbler平台。
 
 启动：
-
 --请先挂载系统镜像，不然容器内看不到系统镜像：（如挂载到/mnt下）
   mount /dev/cdrom /mnt
 示例：
