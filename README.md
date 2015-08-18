@@ -4,7 +4,7 @@
 启动：
 --请先挂载系统镜像，不然容器内看不到系统镜像：（如挂载到/mnt下）
   mount /dev/cdrom /mnt
-
+示例：
   docker run -d -e SERVER_IP=192.168.2.8 -e DHCP_RANGE="192.168.2.230 192.168.2.235" -e ROOT_PASSWORD=ptmind890iop -e DHCP_SUBNET=192.168.2.0 -e DHCP_ROUTER=192.168.2.1 -e DHCP_DNS=223.5.5.5 --name cobbler --net host -v /mnt:/mnt:ro cobbler
 
 说明：共有6个变量：
