@@ -18,7 +18,6 @@
 可用ss -antup命令看到启动的端口
 
 配置防火墙：  
-  firewall-cmd --add-service=dns  
   firewall-cmd --add-service=dhcp  
   firewall-cmd --add-service=http  
   firewall-cmd --add-service=tftp  
