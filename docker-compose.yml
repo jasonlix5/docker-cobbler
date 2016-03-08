@@ -1,5 +1,5 @@
 cobbler:
-	build: .
+	image: jasonlix/docker-cobbler
 	volumes:
 		- /mnt:/mnt:ro
 	env_file: cobbler.env
