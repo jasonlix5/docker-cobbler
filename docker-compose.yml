@@ -1,0 +1,6 @@
+cobbler:
+	build: .
+	volumes:
+		- /mnt:/mnt:ro
+	env_file: cobbler.env
+	net: "host"
